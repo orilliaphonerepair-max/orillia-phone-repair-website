@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Orillia Phone Repair</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .tab { display: none; }
+        .tab-label { padding: 10px; background-color: #f1f1f1; border: 1px solid #ccc; cursor: pointer; }
+        .tab-content { border: 1px solid #ccc; border-top: none; padding: 10px; }
+        .tab:checked + .tab-label { background-color: #fff; }
+        .tab:checked ~ .tab-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Frequently Asked Questions</h1>
+    <div>
+        <input type="checkbox" class="tab" id="tab1">
+        <label class="tab-label" for="tab1">General Questions</label>
+        <div class="tab-content">
+            <p>What are your operating hours?</p>
+            <p>We are open Monday to Saturday, 9 AM to 6 PM.</p>
+            <p>Where are you located?</p>
+            <p>We are located in Orillia, Ontario.</p>
+        </div>
+    </div>
+    <div>
+        <input type="checkbox" class="tab" id="tab2">
+        <label class="tab-label" for="tab2">Services</label>
+        <div class="tab-content">
+            <p>What types of repairs do you offer?</p>
+            <p>We offer a range of repairs including screen replacements, battery replacements, and more.</p>
+        </div>
+    </div>
+    <div>
+        <input type="checkbox" class="tab" id="tab3">
+        <label class="tab-label" for="tab3">Pricing</label>
+        <div class="tab-content">
+            <p>How much do your services cost?</p>
+            <p>Prices vary depending on the service, but screen replacements start from $99.</p>
+        </div>
+    </div>
+    <div>
+        <input type="checkbox" class="tab" id="tab4">
+        <label class="tab-label" for="tab4">Warranty</label>
+        <div class="tab-content">
+            <p>Do you offer a warranty on repairs?</p>
+            <p>Yes, we offer a 90-day warranty on all repairs.</p>
+        </div>
+    </div>
+    <div>
+        <input type="checkbox" class="tab" id="tab5">
+        <label class="tab-label" for="tab5">Contact Information</label>
+        <div class="tab-content">
+            <p>How can I contact you?</p>
+            <p>You can reach us via email at info@orilliaphonerepair.com or call us at (123) 456-7890.</p>
+        </div>
+    </div>
+</body>
+</html>
